@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.anshul.cheficiousn.NonVeg"
+    tools:showIn="@layout/activity_non_veg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view1"
+            android:layout_width="140dp"
+            android:layout_height="103dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="20dp"
+            android:onClick="nv1"
+            card_view:cardCornerRadius="4dp"
+            tools:ignore="ExtraText">
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/nv1"
+                />
+            <TextView
+                android:id="@+id/info_text1"
+                android:text="@string/chicken_swiss_roll"
+
+                android:textStyle="bold"
+                android:textColor="#Ff0000"
+                android:textAlignment="center"
+                android:background="#ffffff"
+                android:layout_marginTop="85dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+             </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view2"
+            android:layout_width="140dp"
+            android:layout_height="103dp"
+            android:layout_marginStart="-310dp"
+            android:layout_marginTop="20dp"
+            android:onClick="nv2"
+            card_view:cardCornerRadius="4dp">
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/nv2"
+                />
+            <TextView
+                android:id="@+id/info_text2"
+                android:text="@string/nargisi_kofta"
+
+                android:textStyle="bold"
+                android:textColor="#Ff0000"
+                android:textAlignment="center"
+                android:background="#ffffff"
+                android:layout_marginTop="85dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+             </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view3"
+            android:layout_width="140dp"
+            android:layout_height="103dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="140dp"
+            android:onClick="nv3"
+            card_view:cardCornerRadius="4dp">
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/nv3"
+                />
+            <TextView
+                android:id="@+id/info_text3"
+                android:text="@string/naan_burger"
+
+                android:textStyle="bold"
+                android:textColor="#Ff0000"
+                android:textAlignment="center"
+                android:background="#ffffff"
+                android:layout_marginTop="85dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+             </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view4"
+            android:layout_width="140dp"
+            android:layout_height="103dp"
+            android:layout_marginStart="-310dp"
+            android:layout_marginTop="140dp"
+            android:onClick="nv4"
+            card_view:cardCornerRadius="4dp">
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/nv4"
+                />
+            <TextView
+                android:id="@+id/info_text4"
+                android:text="Egg Toast"
+
+                android:textStyle="bold"
+                android:textColor="#Ff0000"
+                android:textAlignment="center"
+                android:background="#ffffff"
+                android:layout_marginTop="85dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="HardcodedText" />
+
+
+
+             </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view5"
+            android:layout_width="140dp"
+            android:layout_height="103dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="260dp"
+            android:onClick="nv5"
+            card_view:cardCornerRadius="4dp">
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/nv5"
+                />
+            <TextView
+                android:id="@+id/info_text5"
+                android:text="@string/baked_chicken_legs"
+
+                android:textStyle="bold"
+                android:textColor="#Ff0000"
+                android:textAlignment="center"
+                android:background="#ffffff"
+                android:layout_marginTop="85dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+             </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view6"
+            android:layout_width="140dp"
+            android:layout_height="103dp"
+            android:layout_marginStart="-310dp"
+            android:layout_marginTop="260dp"
+            android:onClick="nv6"
+            card_view:cardCornerRadius="4dp">
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/nv6"
+                android:id="@+id/appCompatImageView" />
+            <TextView
+                android:id="@+id/info_text6"
+                android:text="@string/chicken_tacos"
+
+                android:textStyle="bold"
+                android:textColor="#Ff0000"
+                android:textAlignment="center"
+                android:background="#ffffff"
+                android:layout_marginTop="85dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+             </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view7"
+            android:layout_width="140dp"
+            android:layout_height="103dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="380dp"
+            android:onClick="nv7"
+            card_view:cardCornerRadius="4dp">
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/nv7"
+                />
+            <TextView
+                android:id="@+id/info_text7"
+                android:text="@string/chicken_tikka"
+
+                android:textStyle="bold"
+                android:textColor="#Ff0000"
+                android:textAlignment="center"
+                android:background="#ffffff"
+                android:layout_marginTop="85dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+             </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view8"
+            android:layout_width="140dp"
+            android:layout_height="103dp"
+            android:layout_marginStart="-310dp"
+            android:layout_marginTop="380dp"
+            android:onClick="nv8"
+            card_view:cardCornerRadius="4dp">
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/nv8"
+                />
+            <TextView
+                android:id="@+id/info_text8"
+                android:text="@string/spicy_chicken_bites"
+
+                android:textStyle="bold"
+                android:textColor="#Ff0000"
+                android:textAlignment="center"
+                android:background="#ffffff"
+                android:layout_marginTop="85dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+             </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view9"
+            android:layout_width="140dp"
+            android:layout_height="103dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="500dp"
+            android:onClick="nv9"
+            card_view:cardCornerRadius="4dp">
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/nv9"
+                />
+            <TextView
+                android:id="@+id/info_text9"
+                android:text="@string/black_pepper_chicken"
+
+                android:textStyle="bold"
+                android:textColor="#Ff0000"
+                android:textAlignment="center"
+                android:background="#ffffff"
+                android:layout_marginTop="85dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+             </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view10"
+            android:layout_width="140dp"
+            android:layout_height="103dp"
+            android:layout_marginStart="-310dp"
+            android:layout_marginTop="500dp"
+            android:onClick="nv10"
+            card_view:cardCornerRadius="4dp">
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/nv10"
+                />
+            <TextView
+                android:id="@+id/info_text10"
+                android:text="@string/chicken_biryani"
+
+                android:textStyle="bold"
+                android:textColor="#Ff0000"
+                android:textAlignment="center"
+                android:background="#ffffff"
+                android:layout_marginTop="85dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+             </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view11"
+            android:layout_width="140dp"
+            android:layout_height="103dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="620dp"
+            android:onClick="nv11"
+            card_view:cardCornerRadius="4dp">
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/nv11"
+                />
+            <TextView
+                android:id="@+id/info_text11"
+                android:text="@string/stuffed_chicken"
+
+                android:textStyle="bold"
+                android:textColor="#Ff0000"
+                android:textAlignment="center"
+                android:background="#ffffff"
+                android:layout_marginTop="85dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+             </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view12"
+            android:layout_width="140dp"
+            android:layout_height="103dp"
+            android:layout_marginStart="-310dp"
+            android:layout_marginTop="620dp"
+            android:onClick="nv12"
+            card_view:cardCornerRadius="4dp">
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/nv12"
+                />
+            <TextView
+                android:id="@+id/info_text12"
+                android:text="@string/lemon_chicken"
+
+                android:textStyle="bold"
+                android:textColor="#Ff0000"
+                android:textAlignment="center"
+                android:background="#ffffff"
+                android:layout_marginTop="85dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+             </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
